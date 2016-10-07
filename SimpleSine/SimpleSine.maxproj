@@ -1,8 +1,8 @@
 {
 	"name" : "SimpleSine",
 	"version" : 1,
-	"creationdate" : -736261802,
-	"modificationdate" : -736261802,
+	"creationdate" : -736259994,
+	"modificationdate" : -736259994,
 	"viewrect" : [ 0.0, 0.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,

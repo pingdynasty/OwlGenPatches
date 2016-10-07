@@ -262,7 +262,7 @@
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 90.0, 303.0, 137.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"exportfolder" : "Main:/Users/cherifhashizume/Music/RebelTechnology/gen/SimpleSine_code/"
+						"exportfolder" : "Main:/Users/cherifhashizume/Music/RebelTechnology/Final Versions/Project/SimpleSine/"
 					}
 ,
 					"style" : "",

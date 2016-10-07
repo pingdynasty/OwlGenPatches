@@ -584,12 +584,6 @@
 				"type" : "gDSP",
 				"implicit" : 1
 			}
-, 			{
-				"name" : "sinWindo1input.gendsp",
-				"bootpath" : "~/Music/Max/MyBuild/gen",
-				"type" : "gDSP",
-				"implicit" : 1
-			}
  ],
 		"autosave" : 0
 	}
