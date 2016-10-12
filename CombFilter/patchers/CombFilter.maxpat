@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 7,
-			"minor" : 3,
-			"revision" : 0,
+			"minor" : 2,
+			"revision" : 2,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
@@ -87,8 +87,8 @@
 						"followglobaltempo" : 0,
 						"formantcorrection" : 0,
 						"mode" : "basic",
-						"originallength" : [ 4032.740234, "ticks" ],
-						"originaltempo" : 120.0,
+						"originallength" : [ 141232.59375, "ticks" ],
+						"originaltempo" : 120.000008,
 						"pitchcorrection" : 0,
 						"quality" : "basic",
 						"timestretch" : [ 0 ]
@@ -123,8 +123,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 3,
-							"revision" : 0,
+							"minor" : 2,
+							"revision" : 2,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -754,7 +754,7 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "CombFilter.gendsp",
-				"bootpath" : "~/Dropbox/OWLwork/OWL_maxmsp/CombFilter/code",
+				"bootpath" : "~/Dropbox/OWLwork/OwlGenPatches/CombFilter/code",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
