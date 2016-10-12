@@ -3,13 +3,13 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 7,
-			"minor" : 2,
-			"revision" : 2,
+			"minor" : 3,
+			"revision" : 0,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 440.0, 79.0, 455.0, 400.0 ],
+		"rect" : [ 359.0, 147.0, 455.0, 400.0 ],
 		"bgcolor" : [ 0.9, 0.9, 0.9, 1.0 ],
 		"editing_bgcolor" : [ 0.9, 0.9, 0.9, 1.0 ],
 		"bglocked" : 0,
@@ -45,9 +45,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 292.0, 134.0, 26.0, 23.0 ],
+					"patching_rect" : [ 287.0, 134.0, 33.0, 23.0 ],
 					"style" : "",
-					"text" : "* 6"
+					"text" : "* 48"
 				}
 
 			}
