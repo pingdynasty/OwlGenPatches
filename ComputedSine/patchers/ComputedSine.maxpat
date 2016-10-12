@@ -38,6 +38,19 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-13",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 250.0, 109.0, 150.0, 50.0 ],
+					"style" : "",
+					"text" : "really noisey on owl with headphones when changing amp?"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-14",
 					"linecount" : 2,
 					"maxclass" : "comment",
@@ -224,6 +237,10 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 87.0, 169.0, 150.0, 23.0 ],
+					"saved_object_attributes" : 					{
+						"exportfolder" : "Macintosh HD:/Users/adamparkinson/Dropbox/OWLwork/OwlGenPatches/"
+					}
+,
 					"style" : "",
 					"text" : "gen~ @gen ComputedSine"
 				}
