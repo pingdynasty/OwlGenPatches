@@ -3,13 +3,13 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 7,
-			"minor" : 2,
-			"revision" : 5,
+			"minor" : 3,
+			"revision" : 0,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 444.0, 119.0, 766.0, 495.0 ],
+		"rect" : [ 342.0, 147.0, 766.0, 495.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,29 +38,14 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-4",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
+					"id" : "obj-5",
+					"maxclass" : "message",
+					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 466.0, 88.0, 66.0, 22.0 ],
+					"patching_rect" : [ 35.0, 201.0, 70.0, 22.0 ],
 					"style" : "",
-					"text" : "prepend E"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"floatoutput" : 1,
-					"id" : "obj-5",
-					"maxclass" : "dial",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "float" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 466.0, 27.0, 40.0, 40.0 ],
-					"size" : 1.0,
-					"style" : ""
+					"text" : "exportcode"
 				}
 
 			}
@@ -75,8 +60,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 2,
-							"revision" : 5,
+							"minor" : 3,
+							"revision" : 0,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -272,12 +257,16 @@
 				"box" : 				{
 					"id" : "obj-1",
 					"maxclass" : "newobj",
-					"numinlets" : 2,
+					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 90.0, 303.0, 140.0, 22.0 ],
+					"patching_rect" : [ 90.0, 303.0, 120.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"exportfolder" : "Macintosh HD:/Users/adamparkinson/Dropbox/OWLwork/OWL_maxmsp/"
+					}
+,
 					"style" : "",
-					"text" : "gen~ @gen Dev_default"
+					"text" : "gen~ @gen FMBells"
 				}
 
 			}
@@ -303,34 +292,6 @@
 					"patching_rect" : [ 567.0, 135.0, 85.0, 22.0 ],
 					"style" : "",
 					"text" : "prepend Push"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-11",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 368.0, 88.0, 67.0, 22.0 ],
-					"style" : "",
-					"text" : "prepend D"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"floatoutput" : 1,
-					"id" : "obj-12",
-					"maxclass" : "dial",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "float" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 368.0, 27.0, 40.0, 40.0 ],
-					"size" : 1.0,
-					"style" : ""
 				}
 
 			}
@@ -451,24 +412,6 @@
 					"destination" : [ "obj-1", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-11", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-11", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-12", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-1", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-13", 0 ]
 				}
 
@@ -514,15 +457,6 @@
 					"destination" : [ "obj-1", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-4", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-4", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-5", 0 ]
 				}
 
@@ -556,8 +490,8 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "Dev_default.gendsp",
-				"bootpath" : "~/Music/RebelTechnology/gen",
+				"name" : "FMBells.gendsp",
+				"bootpath" : "~/Dropbox/OWLwork/OwlGenPatches/FMBells",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
