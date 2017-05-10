@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 3,
-			"revision" : 0,
+			"revision" : 3,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
@@ -43,9 +43,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 466.0, 88.0, 66.0, 22.0 ],
+					"patching_rect" : [ 466.0, 88.0, 79.0, 22.0 ],
 					"style" : "",
-					"text" : "prepend E"
+					"text" : "prepend Exp"
 				}
 
 			}
@@ -76,7 +76,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 3,
-							"revision" : 0,
+							"revision" : 3,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -164,6 +164,7 @@
 								"box" : 								{
 									"comment" : "",
 									"id" : "obj-4",
+									"index" : 1,
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
@@ -177,6 +178,7 @@
 								"box" : 								{
 									"comment" : "",
 									"id" : "obj-5",
+									"index" : 1,
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
@@ -227,6 +229,7 @@
 									"destination" : [ "obj-16", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
+									"order" : 1,
 									"source" : [ "obj-4", 0 ]
 								}
 
@@ -236,6 +239,7 @@
 									"destination" : [ "obj-18", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
+									"order" : 0,
 									"source" : [ "obj-4", 0 ]
 								}
 
@@ -273,8 +277,8 @@
 					"id" : "obj-1",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"numoutlets" : 2,
+					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 90.0, 303.0, 140.0, 22.0 ],
 					"style" : "",
 					"text" : "gen~ @gen Dev_default"
@@ -548,7 +552,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "Dev_default.gendsp",
-				"bootpath" : "~/Dropbox/OWLwork/OwlGenPatches/Dev_default/Dev_default/code",
+				"bootpath" : "~/Dropbox/OWLwork/OwlGenPatches/Dev_default/code",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
