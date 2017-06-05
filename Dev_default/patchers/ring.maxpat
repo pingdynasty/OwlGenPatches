@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 3,
-			"revision" : 0,
+			"revision" : 3,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 59.0, 104.0, 801.0, 544.0 ],
+		"rect" : [ 166.0, 79.0, 940.0, 628.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,81 +38,27 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"data" : 					{
-						"clips" : [ 							{
-								"filename" : "Clap 01.wav",
-								"filekind" : "audiofile",
-								"loop" : 1,
-								"content_state" : 								{
-									"speed" : [ 1.0 ],
-									"pitchshift" : [ 1.0 ],
-									"originaltempo" : [ 120.0 ],
-									"formantcorrection" : [ 0 ],
-									"followglobaltempo" : [ 0 ],
-									"pitchcorrection" : [ 0 ],
-									"slurtime" : [ 0.0 ],
-									"formant" : [ 1.0 ],
-									"basictuning" : [ 440 ],
-									"originallength" : [ 0.0, "ticks" ],
-									"mode" : [ "basic" ],
-									"play" : [ 0 ],
-									"timestretch" : [ 0 ],
-									"originallengthms" : [ 0.0 ],
-									"quality" : [ "basic" ]
-								}
-
-							}
- ]
-					}
-,
-					"id" : "obj-19",
-					"maxclass" : "playlist~",
-					"numinlets" : 1,
-					"numoutlets" : 5,
-					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
-					"patching_rect" : [ 325.0, 245.0, 150.0, 30.0 ],
-					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontface" : 0,
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-17",
-					"maxclass" : "number~",
-					"mode" : 2,
+					"domain" : [ 0.0, 3000.0 ],
+					"id" : "obj-20",
+					"maxclass" : "spectroscope~",
 					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "signal", "float" ],
-					"patching_rect" : [ 387.0, 372.0, 198.0, 22.0 ],
-					"sig" : 0.0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 242.0, 347.0, 300.0, 100.0 ],
 					"style" : ""
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-21",
+					"id" : "obj-19",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 16.0, 208.0, 70.0, 22.0 ],
+					"patching_rect" : [ 17.999998, 193.333328, 70.0, 22.0 ],
 					"style" : "",
 					"text" : "exportcode"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-16",
-					"maxclass" : "scope~",
-					"numinlets" : 2,
-					"numoutlets" : 0,
-					"patching_rect" : [ 250.0, 372.0, 130.0, 130.0 ],
-					"style" : ""
 				}
 
 			}
@@ -123,9 +69,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 466.0, 88.0, 66.0, 22.0 ],
+					"patching_rect" : [ 466.0, 88.0, 79.0, 22.0 ],
 					"style" : "",
-					"text" : "prepend E"
+					"text" : "prepend Exp"
 				}
 
 			}
@@ -156,7 +102,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 3,
-							"revision" : 0,
+							"revision" : 3,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -244,6 +190,7 @@
 								"box" : 								{
 									"comment" : "",
 									"id" : "obj-4",
+									"index" : 1,
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
@@ -257,6 +204,7 @@
 								"box" : 								{
 									"comment" : "",
 									"id" : "obj-5",
+									"index" : 1,
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
@@ -307,6 +255,7 @@
 									"destination" : [ "obj-16", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
+									"order" : 1,
 									"source" : [ "obj-4", 0 ]
 								}
 
@@ -316,6 +265,7 @@
 									"destination" : [ "obj-18", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
+									"order" : 0,
 									"source" : [ "obj-4", 0 ]
 								}
 
@@ -343,8 +293,21 @@
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 140.0, 376.0, 52.0, 52.0 ],
+					"patching_rect" : [ 90.0, 377.0, 52.0, 52.0 ],
 					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-1",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "signal", "signal" ],
+					"patching_rect" : [ 90.0, 303.0, 100.0, 22.0 ],
+					"style" : "",
+					"text" : "gen~ @gen mod"
 				}
 
 			}
@@ -464,7 +427,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 168.0, 27.0, 40.0, 40.0 ],
+					"patching_rect" : [ 168.0, 33.0, 40.0, 40.0 ],
 					"size" : 1.0,
 					"style" : ""
 				}
@@ -479,32 +442,20 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 90.0, 30.0, 40.0, 40.0 ],
+					"patching_rect" : [ 90.0, 27.0, 40.0, 40.0 ],
 					"size" : 1.0,
 					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-1",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 140.0, 299.0, 186.0, 22.0 ],
-					"style" : "",
-					"text" : "gen~ @gen SimpleDelay.gendsp"
 				}
 
 			}
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"destination" : [ "obj-7", 1 ],
+					"destination" : [ "obj-20", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-1", 1 ]
+					"order" : 0,
+					"source" : [ "obj-1", 0 ]
 				}
 
 			}
@@ -513,6 +464,7 @@
 					"destination" : [ "obj-7", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"order" : 1,
 					"source" : [ "obj-1", 0 ]
 				}
 
@@ -573,15 +525,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-1", 1 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-19", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -595,15 +538,6 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-2", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-1", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-21", 0 ]
 				}
 
 			}
@@ -663,15 +597,9 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "SimpleDelay.gendsp",
-				"bootpath" : "~/Dropbox/OWLwork/OwlGenPatches/SimpleDelay/code",
+				"name" : "mod.gendsp",
+				"bootpath" : "~/Dropbox/OWLwork/OwlGenPatches/Dev_default",
 				"type" : "gDSP",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Clap 01.wav",
-				"bootpath" : "C74:/packages/MaxIntroLessons/media",
-				"type" : "WAVE",
 				"implicit" : 1
 			}
  ],

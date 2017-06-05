@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 7,
-			"minor" : 2,
-			"revision" : 5,
+			"minor" : 3,
+			"revision" : 3,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
@@ -38,6 +38,32 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-66",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 20.0, 125.0, 156.0, 22.0 ],
+					"style" : "",
+					"text" : "exportnotifier OWLwatcher"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-14",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 315.0, 270.0, 154.0, 33.0 ],
+					"style" : "",
+					"text" : "simple 1 volt per octave sine wave patch"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-16",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -47,8 +73,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 2,
-							"revision" : 5,
+							"minor" : 3,
+							"revision" : 3,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -136,6 +162,7 @@
 								"box" : 								{
 									"comment" : "",
 									"id" : "obj-4",
+									"index" : 1,
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
@@ -149,6 +176,7 @@
 								"box" : 								{
 									"comment" : "",
 									"id" : "obj-14",
+									"index" : 1,
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
@@ -199,6 +227,7 @@
 									"destination" : [ "obj-16", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
+									"order" : 1,
 									"source" : [ "obj-4", 0 ]
 								}
 
@@ -208,6 +237,7 @@
 									"destination" : [ "obj-18", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
+									"order" : 0,
 									"source" : [ "obj-4", 0 ]
 								}
 
@@ -215,7 +245,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 468.0, 65.0, 116.0, 22.0 ],
+					"patching_rect" : [ 405.0, 60.0, 116.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -248,7 +278,7 @@
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 108.0, 406.0, 64.0, 64.0 ],
+					"patching_rect" : [ 90.0, 405.0, 64.0, 64.0 ],
 					"style" : ""
 				}
 
@@ -262,7 +292,7 @@
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 90.0, 303.0, 137.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"exportfolder" : "Main:/Users/cherifhashizume/Music/RebelTechnology/Final Versions/Project/SimpleSine/"
+						"exportnotifier" : "OWLwatcher"
 					}
 ,
 					"style" : "",
@@ -277,7 +307,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 468.0, 5.0, 24.0, 24.0 ],
+					"patching_rect" : [ 405.0, 15.0, 24.0, 24.0 ],
 					"style" : ""
 				}
 
@@ -289,7 +319,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 468.0, 126.0, 85.0, 22.0 ],
+					"patching_rect" : [ 405.0, 105.0, 85.0, 22.0 ],
 					"style" : "",
 					"text" : "prepend Push"
 				}
@@ -302,7 +332,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 368.0, 88.0, 67.0, 22.0 ],
+					"patching_rect" : [ 315.0, 90.0, 67.0, 22.0 ],
 					"style" : "",
 					"text" : "prepend D"
 				}
@@ -317,7 +347,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 368.0, 27.0, 40.0, 40.0 ],
+					"patching_rect" : [ 315.0, 27.0, 40.0, 40.0 ],
 					"size" : 1.0,
 					"style" : ""
 				}
@@ -330,7 +360,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 262.0, 88.0, 67.0, 22.0 ],
+					"patching_rect" : [ 240.0, 88.0, 67.0, 22.0 ],
 					"style" : "",
 					"text" : "prepend C"
 				}
@@ -345,7 +375,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 262.0, 18.0, 40.0, 40.0 ],
+					"patching_rect" : [ 240.0, 27.0, 40.0, 40.0 ],
 					"size" : 1.0,
 					"style" : ""
 				}
@@ -358,7 +388,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 168.0, 88.0, 66.0, 22.0 ],
+					"patching_rect" : [ 165.0, 88.0, 66.0, 22.0 ],
 					"style" : "",
 					"text" : "prepend B"
 				}
@@ -386,7 +416,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 168.0, 22.0, 40.0, 40.0 ],
+					"patching_rect" : [ 165.0, 27.0, 40.0, 40.0 ],
 					"size" : 1.0,
 					"style" : ""
 				}
@@ -521,6 +551,15 @@
 					"destination" : [ "obj-1", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"source" : [ "obj-66", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
 					"source" : [ "obj-8", 0 ]
 				}
 
@@ -537,7 +576,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "SimpleSine.gendsp",
-				"bootpath" : "~/Music/RebelTechnology/gen",
+				"bootpath" : "~/Dropbox/OWLwork/OwlGenPatches/SimpleSine/code",
 				"type" : "gDSP",
 				"implicit" : 1
 			}

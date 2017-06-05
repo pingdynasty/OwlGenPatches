@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 3,
-			"revision" : 0,
+			"revision" : 3,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 312.0, 177.0, 583.0, 406.0 ],
+		"rect" : [ 312.0, 177.0, 829.0, 505.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,12 +38,25 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-66",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 112.0, 133.0, 156.0, 23.0 ],
+					"style" : "",
+					"text" : "exportnotifier OWLwatcher"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-3",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 305.0, 277.0, 150.0, 35.0 ],
+					"patching_rect" : [ 298.0, 28.0, 150.0, 35.0 ],
 					"style" : "",
 					"text" : "modified from gen examples"
 				}
@@ -58,7 +71,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 644.0, 95.0, 40.0, 40.0 ],
+					"patching_rect" : [ 331.0, 159.0, 40.0, 40.0 ],
 					"size" : 1.0,
 					"style" : ""
 				}
@@ -71,7 +84,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 640.0, 149.0, 65.0, 23.0 ],
+					"patching_rect" : [ 331.0, 213.0, 65.0, 23.0 ],
 					"style" : "",
 					"text" : "prepend A"
 				}
@@ -84,7 +97,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 469.0, 120.0, 70.0, 23.0 ],
+					"patching_rect" : [ 175.0, 176.0, 70.0, 23.0 ],
 					"style" : "",
 					"text" : "exportcode"
 				}
@@ -101,7 +114,7 @@
 					"orientation" : 1,
 					"outlettype" : [ "signal", "", "float", "list" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 533.0, 247.0, 136.0, 35.0 ],
+					"patching_rect" : [ 224.0, 311.0, 136.0, 35.0 ],
 					"presentation_rect" : [ 105.0, 105.0, 50.0, 35.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
@@ -129,7 +142,7 @@
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 533.0, 318.5, 44.0, 44.0 ],
+					"patching_rect" : [ 224.0, 382.5, 44.0, 44.0 ],
 					"prototypename" : "helpfile",
 					"style" : ""
 				}
@@ -144,7 +157,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 533.0, 201.0, 110.0, 23.0 ],
+					"patching_rect" : [ 224.0, 265.0, 110.0, 23.0 ],
 					"saved_object_attributes" : 					{
 						"exportfolder" : "Macintosh HD:/Users/adamparkinson/Dropbox/OWLwork/OWL_maxmsp/"
 					}
@@ -163,7 +176,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 533.0, 15.0, 226.0, 28.0 ],
+					"patching_rect" : [ 133.0, 28.0, 226.0, 28.0 ],
 					"style" : "",
 					"text" : "Like downsamp~"
 				}
@@ -178,7 +191,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 533.0, 149.0, 70.0, 23.0 ],
+					"patching_rect" : [ 224.0, 213.0, 70.0, 23.0 ],
 					"style" : "",
 					"text" : "cycle~ 440"
 				}
@@ -208,6 +221,7 @@
 					"destination" : [ "obj-12", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"order" : 0,
 					"source" : [ "obj-2", 0 ]
 				}
 
@@ -217,6 +231,7 @@
 					"destination" : [ "obj-12", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"order" : 1,
 					"source" : [ "obj-2", 0 ]
 				}
 
@@ -245,6 +260,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-25", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-13", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-66", 0 ]
 				}
 
 			}

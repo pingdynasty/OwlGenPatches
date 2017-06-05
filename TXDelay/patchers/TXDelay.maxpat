@@ -3,13 +3,13 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 7,
-			"minor" : 2,
-			"revision" : 5,
+			"minor" : 3,
+			"revision" : 3,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 525.0, 194.0, 630.0, 480.0 ],
+		"rect" : [ -373.0, -914.0, 599.0, 757.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,45 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"data" : 					{
+						"clips" : [ 							{
+								"filename" : "drumLoop.aif",
+								"filekind" : "audiofile",
+								"loop" : 1,
+								"content_state" : 								{
+									"formant" : [ 1.0 ],
+									"mode" : [ "basic" ],
+									"timestretch" : [ 0 ],
+									"originaltempo" : [ 120.0 ],
+									"basictuning" : [ 440 ],
+									"formantcorrection" : [ 0 ],
+									"speed" : [ 1.0 ],
+									"pitchcorrection" : [ 0 ],
+									"slurtime" : [ 0.0 ],
+									"quality" : [ "basic" ],
+									"originallength" : [ 0.0, "ticks" ],
+									"followglobaltempo" : [ 0 ],
+									"play" : [ 0 ],
+									"originallengthms" : [ 0.0 ],
+									"pitchshift" : [ 1.0 ]
+								}
+
+							}
+ ]
+					}
+,
+					"id" : "obj-15",
+					"maxclass" : "playlist~",
+					"numinlets" : 1,
+					"numoutlets" : 5,
+					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
+					"patching_rect" : [ 78.0, 266.0, 150.0, 30.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-30",
 					"linecount" : 2,
@@ -84,8 +123,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 2,
-							"revision" : 5,
+							"minor" : 3,
+							"revision" : 3,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -185,6 +224,7 @@
 								"box" : 								{
 									"comment" : "",
 									"id" : "obj-14",
+									"index" : 1,
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
@@ -198,6 +238,7 @@
 								"box" : 								{
 									"comment" : "",
 									"id" : "obj-20",
+									"index" : 1,
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
@@ -221,6 +262,7 @@
 									"destination" : [ "obj-16", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
+									"order" : 1,
 									"source" : [ "obj-15", 0 ]
 								}
 
@@ -230,6 +272,7 @@
 									"destination" : [ "obj-18", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
+									"order" : 0,
 									"source" : [ "obj-15", 0 ]
 								}
 
@@ -284,45 +327,6 @@
 ,
 					"style" : "",
 					"text" : "p"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"data" : 					{
-						"clips" : [ 							{
-								"filename" : "23652_loofa_A_008.aif",
-								"filekind" : "audiofile",
-								"loop" : 1,
-								"content_state" : 								{
-									"basictuning" : [ 440 ],
-									"pitchcorrection" : [ 0 ],
-									"originallengthms" : [ 0.0 ],
-									"quality" : [ "basic" ],
-									"play" : [ 0 ],
-									"followglobaltempo" : [ 0 ],
-									"timestretch" : [ 0 ],
-									"formant" : [ 1.0 ],
-									"formantcorrection" : [ 0 ],
-									"pitchshift" : [ 1.0 ],
-									"slurtime" : [ 0.0 ],
-									"mode" : [ "basic" ],
-									"originaltempo" : [ 120.0 ],
-									"originallength" : [ 0.0, "ticks" ],
-									"speed" : [ 1.0 ]
-								}
-
-							}
- ]
-					}
-,
-					"id" : "obj-24",
-					"maxclass" : "playlist~",
-					"numinlets" : 1,
-					"numoutlets" : 5,
-					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
-					"patching_rect" : [ 72.0, 325.0, 150.0, 30.0 ],
-					"style" : ""
 				}
 
 			}
@@ -422,7 +426,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 537.0, 245.0, 67.0, 22.0 ],
+					"patching_rect" : [ 522.0, 245.0, 67.0, 22.0 ],
 					"style" : "",
 					"text" : "prepend D"
 				}
@@ -437,7 +441,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 537.0, 175.0, 40.0, 40.0 ],
+					"patching_rect" : [ 522.0, 175.0, 40.0, 40.0 ],
 					"size" : 1.0,
 					"style" : ""
 				}
@@ -465,7 +469,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 436.0, 175.0, 40.0, 40.0 ],
+					"patching_rect" : [ 431.0, 175.0, 40.0, 40.0 ],
 					"size" : 1.0,
 					"style" : ""
 				}
@@ -506,7 +510,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 337.0, 175.0, 40.0, 40.0 ],
+					"patching_rect" : [ 337.0, 170.0, 40.0, 40.0 ],
 					"size" : 1.0,
 					"style" : ""
 				}
@@ -575,6 +579,26 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-4", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"order" : 0,
+					"source" : [ "obj-15", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"order" : 1,
+					"source" : [ "obj-15", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -615,24 +639,6 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-23", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-4", 1 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-24", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-4", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-24", 0 ]
 				}
 
 			}
@@ -702,13 +708,13 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "TXDelay.gendsp",
-				"bootpath" : "~/Music/RebelTechnology/Final Versions",
+				"bootpath" : "~/Dropbox/OWLwork/OwlGenPatches/TXDelay/code",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "23652_loofa_A_008.aif",
-				"bootpath" : "~/Music/Max/CNMAT-Everything-OSX-MachO/CNMAT_MMJ-Depot/tutorials/MaxMSPDaySchool07/1.Monday_Activity-polyrhythms/new_samples",
+				"name" : "drumLoop.aif",
+				"bootpath" : "C74:/media/msp",
 				"type" : "AIFF",
 				"implicit" : 1
 			}
