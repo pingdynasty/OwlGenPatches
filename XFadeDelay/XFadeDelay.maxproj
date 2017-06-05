@@ -2,8 +2,8 @@
 	"name" : "XFadeDelay",
 	"version" : 1,
 	"creationdate" : -726763188,
-	"modificationdate" : -726763188,
-	"viewrect" : [ 0.0, 0.0, 300.0, 500.0 ],
+	"modificationdate" : -715440081,
+	"viewrect" : [ 75.0, 120.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -40,5 +40,6 @@
 	"amxdtype" : 1633771873,
 	"readonly" : 0,
 	"devpathtype" : 0,
-	"devpath" : "."
+	"devpath" : ".",
+	"sortmode" : 0
 }

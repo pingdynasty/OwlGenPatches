@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 359.0, 79.0, 1047.0, 595.0 ],
+		"rect" : [ 285.0, 79.0, 1047.0, 595.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -982,22 +982,22 @@
 					"outlettype" : [ "preset", "int", "preset", "int" ],
 					"patching_rect" : [ 281.5, 505.5, 61.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 21.0, 482.0, 97.0, 26.0 ],
+					"presentation_rect" : [ 21.0, 482.0, 59.0, 26.0 ],
 					"preset_data" : [ 						{
 							"number" : 1,
-							"data" : [ 5, "obj-7", "live.gain~", "float", 0.0, 5, "obj-17", "dial", "float", 0.801536, 5, "obj-30", "dial", "float", 0.616666, 5, "obj-29", "dial", "float", 0.016667, 5, "obj-28", "dial", "float", 1.0, 5, "obj-42", "slider", "float", 0.0, 5, "obj-56", "kslider", "int", 59 ]
+							"data" : [ 5, "obj-7", "live.gain~", "float", 0.601925, 5, "obj-17", "dial", "float", 0.801536, 5, "obj-30", "dial", "float", 0.616666, 5, "obj-29", "dial", "float", 0.016667, 5, "obj-28", "dial", "float", 0.483333, 5, "obj-42", "slider", "float", 0.0, 5, "obj-56", "kslider", "int", 59 ]
 						}
 , 						{
 							"number" : 2,
-							"data" : [ 5, "obj-7", "live.gain~", "float", 0.0, 5, "obj-17", "dial", "float", 0.801536, 5, "obj-30", "dial", "float", 0.016667, 5, "obj-29", "dial", "float", 0.366667, 5, "obj-28", "dial", "float", 1.0, 5, "obj-42", "slider", "float", 0.0, 5, "obj-56", "kslider", "int", 59 ]
+							"data" : [ 5, "obj-7", "live.gain~", "float", -0.445757, 5, "obj-17", "dial", "float", 0.801536, 5, "obj-30", "dial", "float", 0.016667, 5, "obj-29", "dial", "float", 0.366667, 5, "obj-28", "dial", "float", 0.483333, 5, "obj-42", "slider", "float", 0.0, 5, "obj-56", "kslider", "int", 59 ]
 						}
 , 						{
 							"number" : 3,
-							"data" : [ 5, "obj-7", "live.gain~", "float", 0.0, 5, "obj-17", "dial", "float", 0.747678, 5, "obj-30", "dial", "float", 0.1, 5, "obj-29", "dial", "float", 1.0, 5, "obj-28", "dial", "float", 1.0, 5, "obj-42", "slider", "float", 0.0, 5, "obj-56", "kslider", "int", 55 ]
+							"data" : [ 5, "obj-7", "live.gain~", "float", 0.0, 5, "obj-17", "dial", "float", 0.747678, 5, "obj-30", "dial", "float", 0.1, 5, "obj-29", "dial", "float", 1.0, 5, "obj-28", "dial", "float", 0.466667, 5, "obj-42", "slider", "float", 0.0, 5, "obj-56", "kslider", "int", 55 ]
 						}
 , 						{
 							"number" : 4,
-							"data" : [ 5, "obj-7", "live.gain~", "float", 0.0, 5, "obj-17", "dial", "float", 0.680356, 5, "obj-30", "dial", "float", 0.716666, 5, "obj-29", "dial", "float", 0.1, 5, "obj-28", "dial", "float", 1.0, 5, "obj-42", "slider", "float", 0.0, 5, "obj-56", "kslider", "int", 50 ]
+							"data" : [ 5, "obj-7", "live.gain~", "float", 0.0, 5, "obj-17", "dial", "float", 0.680356, 5, "obj-30", "dial", "float", 0.416667, 5, "obj-29", "dial", "float", 0.583333, 5, "obj-28", "dial", "float", 0.566667, 5, "obj-42", "slider", "float", 0.0, 5, "obj-56", "kslider", "int", 50 ]
 						}
  ],
 					"style" : ""

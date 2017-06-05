@@ -196,7 +196,7 @@
 						}
 , 						{
 							"number" : 4,
-							"data" : [ 5, "obj-17", "dial", "float", 0.583333, 5, "obj-30", "dial", "float", 0.466667, 5, "obj-29", "dial", "float", 1.0, 5, "obj-58", "dial", "float", 0.583333, 5, "obj-42", "slider", "float", 0.0, 5, "obj-63", "live.gain~", "float", 0.0 ]
+							"data" : [ 5, "obj-17", "dial", "float", 0.133333, 5, "obj-30", "dial", "float", 1.0, 5, "obj-29", "dial", "float", 0.666667, 5, "obj-58", "dial", "float", 1.0, 5, "obj-42", "slider", "float", 0.0, 5, "obj-63", "live.gain~", "float", 0.0, 5, "obj-8", "toggle", "int", 1 ]
 						}
  ],
 					"style" : ""
@@ -782,21 +782,21 @@
 								"filekind" : "audiofile",
 								"loop" : 1,
 								"content_state" : 								{
-									"followglobaltempo" : [ 0 ],
-									"formantcorrection" : [ 0 ],
+									"originaltempo" : [ 120.0 ],
 									"pitchshift" : [ 1.0 ],
-									"timestretch" : [ 0 ],
-									"originallength" : [ 0.0, "ticks" ],
 									"mode" : [ "basic" ],
-									"basictuning" : [ 440 ],
-									"originallengthms" : [ 0.0 ],
-									"quality" : [ "basic" ],
 									"pitchcorrection" : [ 0 ],
-									"slurtime" : [ 0.0 ],
-									"formant" : [ 1.0 ],
-									"play" : [ 0 ],
 									"speed" : [ 1.0 ],
-									"originaltempo" : [ 120.0 ]
+									"timestretch" : [ 0 ],
+									"slurtime" : [ 0.0 ],
+									"originallength" : [ 0.0, "ticks" ],
+									"formant" : [ 1.0 ],
+									"quality" : [ "basic" ],
+									"followglobaltempo" : [ 0 ],
+									"basictuning" : [ 440 ],
+									"play" : [ 0 ],
+									"formantcorrection" : [ 0 ],
+									"originallengthms" : [ 0.0 ]
 								}
 
 							}

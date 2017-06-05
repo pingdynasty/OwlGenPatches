@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ -649.0, -971.0, 885.0, 803.0 ],
+		"rect" : [ 34.0, 79.0, 885.0, 803.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -37,36 +37,6 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
-				"box" : 				{
-					"fontface" : 0,
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-10",
-					"maxclass" : "number~",
-					"mode" : 2,
-					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "signal", "float" ],
-					"patching_rect" : [ 514.0, 291.5, 56.0, 22.0 ],
-					"sig" : 0.0,
-					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-9",
-					"maxclass" : "number",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 523.0, 353.0, 50.0, 22.0 ],
-					"style" : ""
-				}
-
-			}
-, 			{
 				"box" : 				{
 					"id" : "obj-1",
 					"maxclass" : "newobj",
@@ -159,13 +129,14 @@
 					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"ft1" : 5.0,
 					"id" : "obj-86",
 					"maxclass" : "number~",
 					"mode" : 2,
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "float" ],
-					"patching_rect" : [ 825.5, 86.5, 56.0, 22.0 ],
+					"patching_rect" : [ 825.5, 90.5, 56.0, 22.0 ],
 					"sig" : 0.0,
 					"style" : ""
 				}
@@ -178,7 +149,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 825.5, 63.5, 42.0, 22.0 ],
+					"patching_rect" : [ 826.5, 57.0, 42.0, 22.0 ],
 					"style" : "",
 					"text" : "*~ 0.5"
 				}
@@ -191,7 +162,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 708.0, 11.5, 153.0, 20.0 ],
+					"patching_rect" : [ 708.0, 11.5, 97.0, 20.0 ],
 					"style" : "",
 					"text" : "Fake CV"
 				}
@@ -223,7 +194,7 @@
 					"patching_rect" : [ 23.5, 108.0, 505.0, 74.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 13,
-					"presentation_rect" : [ 319.0, 141.5, 130.5, 181.0 ],
+					"presentation_rect" : [ 319.0, 141.5, 131.0, 181.0 ],
 					"style" : "",
 					"text" : "A beatslicer inspired by Atau Tanaka's ModSquad patch, chucker~, and the gen rewrite of chucker~\n\nA clock is used to continuously record the last bar of input and rearrange according to the CV input coming into channel A"
 				}
@@ -595,9 +566,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 574.0, 27.0, 75.0, 22.0 ],
+					"patching_rect" : [ 574.0, 27.0, 72.0, 22.0 ],
 					"style" : "",
-					"text" : "loadmess 0"
+					"text" : "loadmess 1"
 				}
 
 			}
@@ -617,11 +588,11 @@
 						}
 , 						{
 							"number" : 2,
-							"data" : [ 5, "<invalid>", "dial", "float", 1.0, 5, "<invalid>", "dial", "float", 1.0, 5, "<invalid>", "dial", "float", 0.675, 5, "<invalid>", "dial", "float", 0.0, 5, "<invalid>", "dial", "float", 0.0, 5, "<invalid>", "number~", "list", 0.0, 5, "obj-81", "toggle", "int", 1, 5, "obj-17", "dial", "float", 0.839169, 5, "obj-30", "dial", "float", 1.0, 5, "obj-29", "dial", "float", 0.483333, 5, "obj-28", "dial", "float", 0.0, 5, "obj-42", "slider", "float", 0.0 ]
+							"data" : [ 5, "obj-81", "toggle", "int", 1, 5, "obj-17", "dial", "float", 0.996057, 5, "obj-30", "dial", "float", 1.0, 5, "obj-29", "dial", "float", 0.766667, 5, "obj-28", "dial", "float", 0.0, 5, "obj-42", "slider", "float", 0.0, 5, "obj-86", "number~", "list", 0.0, 5, "obj-64", "live.gain~", "float", 0.0 ]
 						}
 , 						{
 							"number" : 3,
-							"data" : [ 5, "<invalid>", "dial", "float", 1.0, 5, "<invalid>", "dial", "float", 1.0, 5, "<invalid>", "dial", "float", 0.675, 5, "<invalid>", "dial", "float", 0.0, 5, "<invalid>", "dial", "float", 0.0, 5, "<invalid>", "number~", "list", 0.0, 5, "obj-81", "toggle", "int", 1, 5, "obj-17", "dial", "float", 0.014571, 5, "obj-30", "dial", "float", 1.0, 5, "obj-29", "dial", "float", 0.483333, 5, "obj-28", "dial", "float", 0.0, 5, "obj-42", "slider", "float", 0.0 ]
+							"data" : [ 5, "obj-81", "toggle", "int", 1, 5, "obj-17", "dial", "float", 0.47195, 5, "obj-30", "dial", "float", 1.0, 5, "obj-29", "dial", "float", 0.766667, 5, "obj-28", "dial", "float", 1.0, 5, "obj-42", "slider", "float", 0.0, 5, "obj-86", "number~", "list", 0.0, 5, "obj-64", "live.gain~", "float", 0.0 ]
 						}
 , 						{
 							"number" : 4,
@@ -1000,21 +971,21 @@
 								"filekind" : "audiofile",
 								"loop" : 1,
 								"content_state" : 								{
-									"speed" : [ 1.0 ],
 									"originaltempo" : [ 120.0 ],
 									"pitchshift" : [ 1.0 ],
-									"basictuning" : [ 440 ],
+									"mode" : [ "basic" ],
 									"pitchcorrection" : [ 0 ],
-									"formant" : [ 1.0 ],
-									"followglobaltempo" : [ 0 ],
+									"speed" : [ 1.0 ],
 									"timestretch" : [ 0 ],
-									"originallengthms" : [ 0.0 ],
 									"slurtime" : [ 0.0 ],
+									"originallength" : [ 0.0, "ticks" ],
+									"formant" : [ 1.0 ],
+									"quality" : [ "basic" ],
+									"followglobaltempo" : [ 0 ],
+									"basictuning" : [ 440 ],
 									"play" : [ 0 ],
 									"formantcorrection" : [ 0 ],
-									"mode" : [ "basic" ],
-									"originallength" : [ 0.0, "ticks" ],
-									"quality" : [ "basic" ]
+									"originallengthms" : [ 0.0 ]
 								}
 
 							}
@@ -1065,9 +1036,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 826.5, 8.5, 55.0, 22.0 ],
+					"patching_rect" : [ 826.5, 8.5, 65.0, 22.0 ],
 					"style" : "",
-					"text" : "cycle~ 1"
+					"text" : "cycle~ 0.1"
 				}
 
 			}
@@ -1347,15 +1318,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-17", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-10", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-78", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1603,20 +1565,9 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-10", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"order" : 0,
-					"source" : [ "obj-73", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-65", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"order" : 1,
 					"source" : [ "obj-73", 0 ]
 				}
 
