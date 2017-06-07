@@ -736,7 +736,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 51.0, 218.0, 156.0, 22.0 ],
+					"patching_rect" : [ 119.5, 216.0, 156.0, 22.0 ],
 					"style" : "",
 					"text" : "exportnotifier OWLwatcher"
 				}
@@ -764,7 +764,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 198.0, 567.5, 150.0, 20.0 ],
+					"patching_rect" : [ 188.0, 562.5, 150.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 408.0, 320.5, 58.0, 33.0 ],
@@ -902,7 +902,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 132.0, 135.5, 209.0, 20.0 ],
+					"patching_rect" : [ 111.75, 135.5, 209.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 24.0, 371.0, 150.0, 33.0 ],
@@ -1070,7 +1070,8 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 24.0, 347.0, 133.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"exportfolder" : "Macintosh HD:/Users/adamparkinson/Dropbox/OWLwork/exports_fri26/"
+						"exportfolder" : "Macintosh HD:/Users/adamparkinson/Dropbox/OWLwork/exports_fri26/",
+						"exportnotifier" : "OWLwatcher"
 					}
 ,
 					"style" : "",
