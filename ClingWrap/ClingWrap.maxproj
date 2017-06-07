@@ -1,8 +1,8 @@
 {
-	"name" : "beatslicer",
+	"name" : "ClingWrap",
 	"version" : 1,
-	"creationdate" : -718129072,
-	"modificationdate" : -718129072,
+	"creationdate" : -715283514,
+	"modificationdate" : -715283514,
 	"viewrect" : [ 0.0, 0.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -10,11 +10,19 @@
 	"autolocalize" : 0,
 	"contents" : 	{
 		"patchers" : 		{
-			"beatslicer.maxpat" : 			{
+			"ClingWrap.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1,
 				"toplevel" : 1
 			}
+
+		}
+,
+		"media" : 		{
+
+		}
+,
+		"code" : 		{
 
 		}
 

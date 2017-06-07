@@ -1,8 +1,8 @@
 {
-	"name" : "cvhucker",
+	"name" : "cvchucker",
 	"version" : 1,
-	"creationdate" : -715897421,
-	"modificationdate" : -715897421,
+	"creationdate" : -715283759,
+	"modificationdate" : -715283759,
 	"viewrect" : [ 0.0, 0.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -10,11 +10,15 @@
 	"autolocalize" : 0,
 	"contents" : 	{
 		"patchers" : 		{
-			"cvhucker.maxpat" : 			{
+			"cvchucker.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1,
 				"toplevel" : 1
 			}
+
+		}
+,
+		"media" : 		{
 
 		}
 ,

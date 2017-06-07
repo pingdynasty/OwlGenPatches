@@ -1,8 +1,8 @@
 {
-	"name" : "beatslicer2",
+	"name" : "FMBells",
 	"version" : 1,
-	"creationdate" : -717108768,
-	"modificationdate" : -717108768,
+	"creationdate" : -715270181,
+	"modificationdate" : -715270181,
 	"viewrect" : [ 0.0, 0.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -10,7 +10,7 @@
 	"autolocalize" : 0,
 	"contents" : 	{
 		"patchers" : 		{
-			"beatslicer2.maxpat" : 			{
+			"FMBells.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1,
 				"toplevel" : 1

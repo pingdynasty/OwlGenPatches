@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 285.0, 79.0, 1047.0, 595.0 ],
+		"rect" : [ 408.0, 79.0, 797.0, 595.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,23 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontface" : 0,
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-11",
+					"maxclass" : "number~",
+					"mode" : 2,
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "signal", "float" ],
+					"patching_rect" : [ 251.0, 400.0, 56.0, 22.0 ],
+					"sig" : 0.0,
+					"style" : ""
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-63",
 					"maxclass" : "newobj",
@@ -1070,7 +1087,8 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 31.0, 329.5, 130.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"exportfolder" : "Macintosh HD:/Users/adamparkinson/Dropbox/OWLwork/exports_fri26/"
+						"exportfolder" : "Macintosh HD:/Users/adamparkinson/Dropbox/OWLwork/exports_fri26/",
+						"exportnotifier" : "OWLwatcher"
 					}
 ,
 					"style" : "",
