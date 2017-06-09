@@ -44,21 +44,21 @@
 								"filekind" : "audiofile",
 								"loop" : 1,
 								"content_state" : 								{
-									"slurtime" : [ 0.0 ],
-									"originallengthms" : [ 0.0 ],
-									"formantcorrection" : [ 0 ],
-									"pitchshift" : [ 1.0 ],
 									"timestretch" : [ 0 ],
+									"pitchcorrection" : [ 0 ],
+									"quality" : [ "basic" ],
+									"slurtime" : [ 0.0 ],
 									"followglobaltempo" : [ 0 ],
+									"originaltempo" : [ 120.0 ],
+									"originallengthms" : [ 0.0 ],
 									"play" : [ 0 ],
+									"basictuning" : [ 440 ],
+									"formantcorrection" : [ 0 ],
 									"originallength" : [ 0.0, "ticks" ],
 									"speed" : [ 1.0 ],
-									"formant" : [ 1.0 ],
 									"mode" : [ "basic" ],
-									"pitchcorrection" : [ 0 ],
-									"originaltempo" : [ 120.0 ],
-									"quality" : [ "basic" ],
-									"basictuning" : [ 440 ]
+									"pitchshift" : [ 1.0 ],
+									"formant" : [ 1.0 ]
 								}
 
 							}
