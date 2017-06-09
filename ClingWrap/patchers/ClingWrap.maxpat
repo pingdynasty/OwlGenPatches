@@ -513,7 +513,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 835.5, 310.5, 81.0, 22.0 ],
 					"style" : "",
-					"text" : "prepend EXP"
+					"text" : "prepend Exp"
 				}
 
 			}

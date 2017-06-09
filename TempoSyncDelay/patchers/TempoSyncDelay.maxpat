@@ -126,7 +126,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 466.0, 88.0, 66.0, 35.0 ],
 					"style" : "",
-					"text" : "prepend EXP"
+					"text" : "prepend Exp"
 				}
 
 			}
@@ -483,8 +483,8 @@
 					"id" : "obj-1",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"numoutlets" : 2,
+					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 140.0, 299.0, 204.0, 22.0 ],
 					"style" : "",
 					"text" : "gen~ @gen SimpleDelayTap.gendsp"

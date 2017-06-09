@@ -45,7 +45,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 466.0, 88.0, 88.0, 22.0 ],
 					"style" : "",
-					"text" : "prepend EXP"
+					"text" : "prepend Exp"
 				}
 
 			}

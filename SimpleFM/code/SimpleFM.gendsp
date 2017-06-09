@@ -137,7 +137,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 301.0, 115.5, 121.0, 35.0 ],
 					"style" : "",
-					"text" : "param @name EXP @min 0 @max 1"
+					"text" : "param @name Exp @min 0 @max 1"
 				}
 
 			}
