@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 193.0, 79.0, 890.0, 601.0 ],
+		"rect" : [ 313.0, 79.0, 890.0, 601.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -45,20 +45,20 @@
 								"loop" : 1,
 								"content_state" : 								{
 									"slurtime" : [ 0.0 ],
-									"quality" : [ "basic" ],
-									"pitchshift" : [ 1.0 ],
 									"play" : [ 0 ],
-									"formant" : [ 1.0 ],
-									"originaltempo" : [ 120.0 ],
-									"originallengthms" : [ 0.0 ],
-									"mode" : [ "basic" ],
-									"timestretch" : [ 0 ],
-									"originallength" : [ 0.0, "ticks" ],
-									"pitchcorrection" : [ 0 ],
-									"basictuning" : [ 440 ],
 									"formantcorrection" : [ 0 ],
 									"speed" : [ 1.0 ],
-									"followglobaltempo" : [ 0 ]
+									"originallength" : [ 0.0, "ticks" ],
+									"quality" : [ "basic" ],
+									"basictuning" : [ 440 ],
+									"originaltempo" : [ 120.0 ],
+									"followglobaltempo" : [ 0 ],
+									"pitchcorrection" : [ 0 ],
+									"mode" : [ "basic" ],
+									"pitchshift" : [ 1.0 ],
+									"formant" : [ 1.0 ],
+									"timestretch" : [ 0 ],
+									"originallengthms" : [ 0.0 ]
 								}
 
 							}
@@ -81,9 +81,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 865.5, 168.0, 142.0, 20.0 ],
+					"patching_rect" : [ 865.25, 189.5, 142.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 359.25, 158.0, 142.0, 20.0 ],
+					"presentation_rect" : [ 354.0, 158.0, 142.0, 20.0 ],
 					"style" : "",
 					"text" : "Exp - Gate threshold"
 				}
@@ -167,7 +167,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 835.5, 633.0, 505.0, 20.0 ],
+					"patching_rect" : [ 835.5, 637.5, 505.0, 20.0 ],
 					"style" : "",
 					"text" : "By Cherif Hashizume and Adam Parkinson",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -224,10 +224,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 48.0, 102.5, 435.0, 87.0 ],
+					"patching_rect" : [ 48.0, 102.5, 435.0, 74.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 11,
-					"presentation_rect" : [ 359.25, 193.0, 145.75, 154.0 ],
+					"presentation_rect" : [ 359.25, 193.0, 149.0, 154.0 ],
 					"style" : "",
 					"text" : "Interpolate between 4 different digital clipping (clip/fold/modulo/wrap). The more you turn the morph dial clockwise, the harsher it gets. Exp does additional gating on the input (before pre-gain) to emulate broken circuit/loose connections. \n\n"
 				}
@@ -858,7 +858,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 869.5, 42.5, 102.0, 20.0 ],
+					"patching_rect" : [ 869.25, 64.0, 102.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 356.0, 41.5, 110.0, 20.0 ],
 					"style" : "",
@@ -919,9 +919,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 865.5, 145.5, 142.0, 20.0 ],
+					"patching_rect" : [ 865.25, 167.0, 142.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 356.0, 142.0, 142.0, 20.0 ],
+					"presentation_rect" : [ 354.0, 134.5, 142.0, 20.0 ],
 					"style" : "",
 					"text" : "D -  Mix"
 				}
@@ -933,9 +933,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 864.5, 122.5, 142.0, 20.0 ],
+					"patching_rect" : [ 864.25, 144.0, 142.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 355.0, 119.0, 142.0, 20.0 ],
+					"presentation_rect" : [ 354.0, 112.5, 142.0, 20.0 ],
 					"style" : "",
 					"text" : "C -  Morph"
 				}
@@ -947,9 +947,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 865.5, 99.5, 142.0, 20.0 ],
+					"patching_rect" : [ 865.25, 121.0, 142.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 356.0, 96.0, 142.0, 20.0 ],
+					"presentation_rect" : [ 356.0, 90.5, 142.0, 20.0 ],
 					"style" : "",
 					"text" : "B - Tone"
 				}
@@ -961,9 +961,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 865.5, 75.5, 142.0, 20.0 ],
+					"patching_rect" : [ 865.25, 97.0, 142.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 356.0, 72.0, 142.0, 20.0 ],
+					"presentation_rect" : [ 356.0, 68.5, 142.0, 20.0 ],
 					"style" : "",
 					"text" : "A - Pre gain"
 				}
@@ -1050,9 +1050,9 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 845.0, 35.0, 182.5, 186.0 ],
+					"patching_rect" : [ 845.0, 54.5, 182.5, 175.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 354.0, 37.0, 156.0, 141.0 ],
+					"presentation_rect" : [ 354.0, 35.0, 156.0, 143.0 ],
 					"proportion" : 0.39,
 					"style" : ""
 				}

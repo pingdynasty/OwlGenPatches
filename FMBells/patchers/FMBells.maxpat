@@ -1018,7 +1018,7 @@
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 132.0, 542.5, 45.0, 45.0 ],
+					"patching_rect" : [ 132.0, 538.5, 45.0, 45.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 409.0, 361.5, 52.0, 52.0 ],
 					"style" : ""
