@@ -5,15 +5,11 @@
 			"major" : 7,
 			"minor" : 3,
 			"revision" : 4,
-			"architecture" : "x86",
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-<<<<<<< HEAD
-		"rect" : [ 313.0, 79.0, 890.0, 601.0 ],
-=======
-		"rect" : [ 451.0, 327.0, 890.0, 601.0 ],
->>>>>>> origin/master
+		"rect" : [ 59.0, 358.0, 505.0, 519.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -48,39 +44,21 @@
 								"filekind" : "audiofile",
 								"loop" : 1,
 								"content_state" : 								{
-<<<<<<< HEAD
-									"slurtime" : [ 0.0 ],
 									"play" : [ 0 ],
-									"formantcorrection" : [ 0 ],
-									"speed" : [ 1.0 ],
-									"originallength" : [ 0.0, "ticks" ],
-									"quality" : [ "basic" ],
-									"basictuning" : [ 440 ],
-									"originaltempo" : [ 120.0 ],
-									"followglobaltempo" : [ 0 ],
-									"pitchcorrection" : [ 0 ],
-									"mode" : [ "basic" ],
-									"pitchshift" : [ 1.0 ],
-									"formant" : [ 1.0 ],
-									"timestretch" : [ 0 ],
-									"originallengthms" : [ 0.0 ]
-=======
-									"timestretch" : [ 0 ],
-									"pitchcorrection" : [ 0 ],
-									"quality" : [ "basic" ],
-									"slurtime" : [ 0.0 ],
-									"followglobaltempo" : [ 0 ],
-									"originaltempo" : [ 120.0 ],
 									"originallengthms" : [ 0.0 ],
-									"play" : [ 0 ],
-									"basictuning" : [ 440 ],
-									"formantcorrection" : [ 0 ],
 									"originallength" : [ 0.0, "ticks" ],
+									"timestretch" : [ 0 ],
 									"speed" : [ 1.0 ],
+									"originaltempo" : [ 120.0 ],
+									"quality" : [ "basic" ],
 									"mode" : [ "basic" ],
+									"formantcorrection" : [ 0 ],
+									"formant" : [ 1.0 ],
+									"slurtime" : [ 0.0 ],
+									"followglobaltempo" : [ 0 ],
+									"basictuning" : [ 440 ],
 									"pitchshift" : [ 1.0 ],
-									"formant" : [ 1.0 ]
->>>>>>> origin/master
+									"pitchcorrection" : [ 0 ]
 								}
 
 							}
@@ -103,9 +81,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 865.25, 189.5, 142.0, 20.0 ],
+					"patching_rect" : [ 865.5, 168.0, 142.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 354.0, 158.0, 142.0, 20.0 ],
+					"presentation_rect" : [ 337.25, 141.0, 142.0, 20.0 ],
 					"style" : "",
 					"text" : "Exp - Gate threshold"
 				}
@@ -120,7 +98,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 522.0, 511.0, 178.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 366.0, 349.0, 109.0, 22.0 ],
+					"presentation_rect" : [ 344.0, 332.0, 109.0, 22.0 ],
 					"style" : "",
 					"text" : "visit Patch Library!"
 				}
@@ -162,7 +140,7 @@
 					"patching_rect" : [ 238.0, 615.5, 150.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 429.0, 403.5, 58.0, 33.0 ],
+					"presentation_rect" : [ 407.0, 386.5, 58.0, 33.0 ],
 					"style" : "",
 					"text" : "Turn audio on"
 				}
@@ -177,7 +155,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 365.5, 525.0, 89.0, 33.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 233.5, 421.5, 150.0, 20.0 ],
+					"presentation_rect" : [ 211.5, 404.5, 150.0, 20.0 ],
 					"style" : "",
 					"text" : "Try some presets"
 				}
@@ -189,53 +167,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 835.5, 637.5, 505.0, 20.0 ],
+					"patching_rect" : [ 835.5, 633.0, 505.0, 20.0 ],
 					"style" : "",
 					"text" : "By Cherif Hashizume and Adam Parkinson",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-12",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 967.5, 559.5, 106.0, 22.0 ],
-					"style" : "",
-					"text" : "load OWLwatcher"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-13",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 967.5, 591.0, 53.0, 22.0 ],
-					"style" : "",
-					"text" : "pcontrol"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-11",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 967.5, 525.0, 60.0, 22.0 ],
-					"style" : "",
-					"text" : "loadbang"
 				}
 
 			}
@@ -249,7 +184,7 @@
 					"patching_rect" : [ 48.0, 102.5, 435.0, 74.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 11,
-					"presentation_rect" : [ 359.25, 193.0, 149.0, 154.0 ],
+					"presentation_rect" : [ 337.25, 176.0, 149.0, 154.0 ],
 					"style" : "",
 					"text" : "Interpolate between 4 different digital clipping (clip/fold/modulo/wrap). The more you turn the morph dial clockwise, the harsher it gets. Exp does additional gating on the input (before pre-gain) to emulate broken circuit/loose connections. \n\n"
 				}
@@ -303,7 +238,7 @@
 					"outlettype" : [ "preset", "int", "preset", "int" ],
 					"patching_rect" : [ 285.5, 551.0, 55.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 241.0, 458.0, 52.0, 17.0 ],
+					"presentation_rect" : [ 219.0, 441.0, 52.0, 17.0 ],
 					"preset_data" : [ 						{
 							"number" : 1,
 							"data" : [ 5, "obj-54", "live.gain~", "float", 0.0, 5, "obj-32", "dial", "float", 0.366667, 5, "obj-30", "dial", "float", 0.883333, 5, "obj-29", "dial", "float", 0.233333, 5, "obj-28", "dial", "float", 1.0, 5, "obj-42", "slider", "float", 0.0 ]
@@ -354,7 +289,7 @@
 							"major" : 7,
 							"minor" : 3,
 							"revision" : 4,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -632,7 +567,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 773.5, 140.5, 15.0, 75.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 301.0, 223.0, 15.0, 75.0 ],
+					"presentation_rect" : [ 279.0, 206.0, 15.0, 75.0 ],
 					"size" : 1.0,
 					"style" : ""
 				}
@@ -648,7 +583,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 647.0, 176.5, 53.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 174.5, 255.0, 53.0, 23.0 ],
+					"presentation_rect" : [ 152.5, 238.0, 53.0, 23.0 ],
 					"style" : "",
 					"text" : "Push"
 				}
@@ -664,7 +599,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 769.5, 107.5, 23.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 297.0, 186.0, 23.0, 23.0 ],
+					"presentation_rect" : [ 275.0, 169.0, 23.0, 23.0 ],
 					"style" : "",
 					"text" : "D"
 				}
@@ -680,7 +615,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 695.5, 107.5, 24.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 223.0, 186.0, 24.0, 23.0 ],
+					"presentation_rect" : [ 201.0, 169.0, 24.0, 23.0 ],
 					"style" : "",
 					"text" : "C"
 				}
@@ -696,7 +631,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 618.5, 107.5, 24.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 146.0, 186.0, 24.0, 23.0 ],
+					"presentation_rect" : [ 124.0, 169.0, 24.0, 23.0 ],
 					"style" : "",
 					"text" : "B"
 				}
@@ -712,7 +647,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 544.5, 107.5, 22.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 72.0, 186.0, 22.0, 23.0 ],
+					"presentation_rect" : [ 50.0, 169.0, 22.0, 23.0 ],
 					"style" : "",
 					"text" : "A"
 				}
@@ -732,7 +667,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 748.5, 59.5, 60.0, 60.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 276.0, 138.0, 60.0, 60.0 ],
+					"presentation_rect" : [ 254.0, 121.0, 60.0, 60.0 ],
 					"size" : 1.0,
 					"style" : "",
 					"thickness" : 100.0
@@ -753,7 +688,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 674.5, 59.5, 60.0, 60.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 202.0, 138.0, 60.0, 60.0 ],
+					"presentation_rect" : [ 180.0, 121.0, 60.0, 60.0 ],
 					"size" : 1.0,
 					"style" : "",
 					"thickness" : 100.0
@@ -774,7 +709,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 597.5, 59.5, 60.0, 60.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 125.0, 138.0, 60.0, 60.0 ],
+					"presentation_rect" : [ 103.0, 121.0, 60.0, 60.0 ],
 					"size" : 1.0,
 					"style" : "",
 					"thickness" : 100.0
@@ -793,7 +728,7 @@
 					"outlinecolor" : [ 0.0, 0.0, 0.0, 0.988235 ],
 					"patching_rect" : [ 637.0, 129.5, 59.0, 59.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 164.5, 208.0, 59.0, 59.0 ],
+					"presentation_rect" : [ 142.5, 191.0, 59.0, 59.0 ],
 					"style" : ""
 				}
 
@@ -812,7 +747,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 523.5, 59.5, 60.0, 60.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 51.0, 138.0, 60.0, 60.0 ],
+					"presentation_rect" : [ 29.0, 121.0, 60.0, 60.0 ],
 					"size" : 1.0,
 					"style" : "",
 					"thickness" : 100.0
@@ -842,7 +777,7 @@
 					"patching_rect" : [ 523.5, 54.5, 296.0, 192.5 ],
 					"pic" : "Macintosh HD:/Users/adamparkinson/Downloads/owl-faceplate-nourl-original (2).png",
 					"presentation" : 1,
-					"presentation_rect" : [ 37.0, 103.0, 306.0, 218.0 ]
+					"presentation_rect" : [ 15.0, 86.0, 306.0, 218.0 ]
 				}
 
 			}
@@ -855,7 +790,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 60.0, 211.5, 70.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 45.0, 491.0, 70.0, 22.0 ],
+					"presentation_rect" : [ 23.0, 474.0, 70.0, 22.0 ],
 					"style" : "",
 					"text" : "exportcode"
 				}
@@ -868,9 +803,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 869.25, 64.0, 102.0, 20.0 ],
+					"patching_rect" : [ 869.5, 42.5, 102.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 356.0, 41.5, 110.0, 20.0 ],
+					"presentation_rect" : [ 334.0, 24.5, 110.0, 20.0 ],
 					"style" : "",
 					"text" : "Controls"
 				}
@@ -886,7 +821,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 48.0, 46.0, 383.0, 47.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 45.0, 41.5, 194.0, 47.0 ],
+					"presentation_rect" : [ 23.0, 24.5, 194.0, 47.0 ],
 					"style" : "",
 					"text" : "ClingWrap"
 				}
@@ -901,7 +836,7 @@
 					"patching_rect" : [ 131.5, 211.5, 209.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 45.0, 454.0, 150.0, 33.0 ],
+					"presentation_rect" : [ 23.0, 437.0, 150.0, 33.0 ],
 					"style" : "",
 					"text" : "Click to compile and export to OWL"
 				}
@@ -917,7 +852,7 @@
 					"patching_rect" : [ 360.5, 387.0, 125.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 45.0, 394.5, 150.0, 33.0 ],
+					"presentation_rect" : [ 23.0, 377.5, 150.0, 33.0 ],
 					"style" : "",
 					"text" : "Double click to see the OWL gen patch"
 				}
@@ -929,9 +864,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 865.25, 167.0, 142.0, 20.0 ],
+					"patching_rect" : [ 865.5, 145.5, 142.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 354.0, 134.5, 142.0, 20.0 ],
+					"presentation_rect" : [ 334.0, 125.0, 142.0, 20.0 ],
 					"style" : "",
 					"text" : "D -  Mix"
 				}
@@ -943,9 +878,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 864.25, 144.0, 142.0, 20.0 ],
+					"patching_rect" : [ 864.5, 122.5, 142.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 354.0, 112.5, 142.0, 20.0 ],
+					"presentation_rect" : [ 333.0, 102.0, 142.0, 20.0 ],
 					"style" : "",
 					"text" : "C -  Morph"
 				}
@@ -957,9 +892,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 865.25, 121.0, 142.0, 20.0 ],
+					"patching_rect" : [ 865.5, 99.5, 142.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 356.0, 90.5, 142.0, 20.0 ],
+					"presentation_rect" : [ 334.0, 79.0, 142.0, 20.0 ],
 					"style" : "",
 					"text" : "B - Tone"
 				}
@@ -971,9 +906,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 865.25, 97.0, 142.0, 20.0 ],
+					"patching_rect" : [ 865.5, 75.5, 142.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 356.0, 68.5, 142.0, 20.0 ],
+					"presentation_rect" : [ 334.0, 55.0, 142.0, 20.0 ],
 					"style" : "",
 					"text" : "A - Pre gain"
 				}
@@ -989,7 +924,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 172.0, 456.5, 48.0, 136.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 366.0, 407.5, 55.0, 94.0 ],
+					"presentation_rect" : [ 344.0, 390.5, 55.0, 94.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~",
@@ -1016,7 +951,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 172.0, 607.5, 45.0, 45.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 432.0, 445.5, 52.0, 52.0 ],
+					"presentation_rect" : [ 410.0, 428.5, 52.0, 52.0 ],
 					"style" : ""
 				}
 
@@ -1045,7 +980,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 46.0, 31.5, 468.0, 149.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 37.0, 35.0, 307.0, 60.0 ],
+					"presentation_rect" : [ 15.0, 18.0, 307.0, 60.0 ],
 					"proportion" : 0.39,
 					"style" : ""
 				}
@@ -1060,9 +995,9 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 845.0, 54.5, 182.5, 175.0 ],
+					"patching_rect" : [ 845.0, 35.0, 182.5, 186.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 354.0, 35.0, 156.0, 143.0 ],
+					"presentation_rect" : [ 332.0, 20.0, 156.0, 141.0 ],
 					"proportion" : 0.39,
 					"style" : ""
 				}
@@ -1077,7 +1012,7 @@
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 172.0, 392.5, 162.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 45.0, 430.0, 165.0, 22.0 ],
+					"presentation_rect" : [ 23.0, 413.0, 165.0, 22.0 ],
 					"style" : "",
 					"text" : "gen~ @gen ClingWrap_v1.0"
 				}
@@ -1094,7 +1029,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 159.5, 381.0, 193.5, 45.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 37.0, 390.0, 182.0, 129.0 ],
+					"presentation_rect" : [ 15.0, 373.0, 182.0, 129.0 ],
 					"proportion" : 0.39,
 					"style" : ""
 				}
@@ -1111,7 +1046,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 517.0, 502.5, 433.0, 123.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 223.0, 390.0, 287.0, 129.0 ],
+					"presentation_rect" : [ 201.0, 373.0, 287.0, 129.0 ],
 					"proportion" : 0.39,
 					"style" : ""
 				}
@@ -1128,7 +1063,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 280.5, 39.0, 162.0, 47.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 354.0, 186.0, 156.0, 197.0 ],
+					"presentation_rect" : [ 332.0, 169.0, 156.0, 197.0 ],
 					"proportion" : 0.39,
 					"style" : ""
 				}
@@ -1146,7 +1081,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 523.5, 54.5, 296.0, 192.5 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 37.0, 103.0, 307.0, 222.0 ],
+					"presentation_rect" : [ 15.0, 86.0, 307.0, 222.0 ],
 					"proportion" : 0.39,
 					"style" : ""
 				}
@@ -1180,7 +1115,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 32.5, 27.0, 1069.0, 642.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 30.0, 26.5, 488.0, 500.0 ],
+					"presentation_rect" : [ 8.0, 9.5, 488.0, 500.0 ],
 					"proportion" : 0.39,
 					"style" : ""
 				}
@@ -1188,20 +1123,6 @@
 			}
  ],
 		"lines" : [ 			{
-				"patchline" : 				{
-					"destination" : [ "obj-12", 0 ],
-					"source" : [ "obj-11", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-13", 0 ],
-					"source" : [ "obj-12", 0 ]
-				}
-
-			}
-, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
 					"source" : [ "obj-21", 0 ]
@@ -1402,22 +1323,19 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "ClingWrap_v1.0.gendsp",
-				"bootpath" : "~/Music/RebelTechnology/OwlGenPatches/ClingWrap/code",
-				"patcherrelativepath" : "../code",
+				"bootpath" : "~/Documents/Max 7/Packages/OWL/patchers/ClingWrap/code",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "4dists_noRMS_v2.gendsp",
-				"bootpath" : "~/Music/RebelTechnology/OwlGenPatches/ClingWrap/code",
-				"patcherrelativepath" : "../code",
+				"bootpath" : "~/Documents/Max 7/Packages/OWL/patchers/ClingWrap/code",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "owl-faceplate-nourl-original (2).png",
-				"bootpath" : "~/Music/RebelTechnology/backup/OwlGenPatches/SimpleFM/media",
-				"patcherrelativepath" : "../../../backup/OwlGenPatches/SimpleFM/media",
+				"bootpath" : "~/Documents/Max 7/Packages/OWL/patchers/cvchucker/media",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
