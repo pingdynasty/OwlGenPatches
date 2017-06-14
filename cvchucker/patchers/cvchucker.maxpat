@@ -5,11 +5,11 @@
 			"major" : 7,
 			"minor" : 3,
 			"revision" : 4,
-			"architecture" : "x64",
+			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 56.0, 359.0, 476.0, 476.0 ],
+		"rect" : [ 258.0, 79.0, 819.0, 568.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -109,12 +109,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-70",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 49.5, 529.0, 124.0, 20.0 ],
+					"patching_rect" : [ 49.5, 524.0, 142.5, 33.0 ],
 					"style" : "",
-					"text" : "alternative version?"
+					"text" : "alternative version without xfades"
 				}
 
 			}
@@ -365,7 +366,7 @@
 							"major" : 7,
 							"minor" : 3,
 							"revision" : 4,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -1040,21 +1041,21 @@
 								"filekind" : "audiofile",
 								"loop" : 1,
 								"content_state" : 								{
-									"play" : [ 0 ],
-									"originallengthms" : [ 0.0 ],
-									"originallength" : [ 0.0, "ticks" ],
-									"timestretch" : [ 0 ],
-									"speed" : [ 1.0 ],
-									"originaltempo" : [ 120.0 ],
-									"quality" : [ "basic" ],
-									"mode" : [ "basic" ],
-									"formantcorrection" : [ 0 ],
-									"formant" : [ 1.0 ],
 									"slurtime" : [ 0.0 ],
 									"followglobaltempo" : [ 0 ],
+									"mode" : [ "basic" ],
+									"originaltempo" : [ 120.0 ],
+									"originallengthms" : [ 0.0 ],
+									"play" : [ 0 ],
 									"basictuning" : [ 440 ],
+									"speed" : [ 1.0 ],
+									"formantcorrection" : [ 0 ],
+									"originallength" : [ 0.0, "ticks" ],
 									"pitchshift" : [ 1.0 ],
-									"pitchcorrection" : [ 0 ]
+									"formant" : [ 1.0 ],
+									"timestretch" : [ 0 ],
+									"pitchcorrection" : [ 0 ],
+									"quality" : [ "basic" ]
 								}
 
 							}
@@ -1654,19 +1655,22 @@
 			}
 , 			{
 				"name" : "owl-faceplate-nourl-original (2).png",
-				"bootpath" : "~/Documents/Max 7/Packages/OWL/patchers/cvchucker/media",
+				"bootpath" : "~/Downloads",
+				"patcherrelativepath" : "../../../../../Downloads",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cvchucker2.gendsp",
-				"bootpath" : "~/Documents/Max 7/Packages/OWL/patchers/cvchucker/code",
+				"bootpath" : "~/Dropbox/OWLwork/OwlGenPatches/CvChucker/code",
+				"patcherrelativepath" : "../code",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cvchucker.gendsp",
-				"bootpath" : "~/Documents/Max 7/Packages/OWL/patchers/cvchucker/code",
+				"bootpath" : "~/Dropbox/OWLwork/OwlGenPatches/CvChucker/code",
+				"patcherrelativepath" : "../code",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
