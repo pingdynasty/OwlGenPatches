@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 125.0, 124.0, 505.0, 519.0 ],
+		"rect" : [ 598.0, 106.0, 505.0, 519.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,19 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-1",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 380.0, 452.0, 34.0, 22.0 ],
+					"style" : "",
+					"text" : "pvar"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"data" : 					{
 						"clips" : [ 							{
@@ -270,9 +283,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 523.5, 424.5, 125.0, 22.0 ],
+					"patching_rect" : [ 523.5, 424.5, 112.0, 22.0 ],
 					"style" : "",
-					"text" : "send #0OWLControls"
+					"text" : "send OWLControls"
 				}
 
 			}
@@ -963,9 +976,9 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 172.0, 320.5, 138.0, 22.0 ],
+					"patching_rect" : [ 172.0, 320.5, 125.0, 22.0 ],
 					"style" : "",
-					"text" : "receive #0OWLControls"
+					"text" : "receive OWLControls"
 				}
 
 			}

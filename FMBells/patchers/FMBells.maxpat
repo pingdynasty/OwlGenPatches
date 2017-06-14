@@ -5,11 +5,11 @@
 			"major" : 7,
 			"minor" : 3,
 			"revision" : 4,
-			"architecture" : "x64",
+			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 57.0, 357.0, 483.0, 455.0 ],
+		"rect" : [ 148.0, 96.0, 483.0, 455.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -56,9 +56,9 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 132.0, 251.5, 118.0, 22.0 ],
+					"patching_rect" : [ 132.0, 251.5, 125.0, 22.0 ],
 					"style" : "",
-					"text" : "receive OwlControls"
+					"text" : "receive OWLControls"
 				}
 
 			}
@@ -149,9 +149,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 497.0, 429.5, 105.0, 22.0 ],
+					"patching_rect" : [ 497.0, 429.5, 112.0, 22.0 ],
 					"style" : "",
-					"text" : "send OwlControls"
+					"text" : "send OWLControls"
 				}
 
 			}
@@ -168,7 +168,7 @@
 							"major" : 7,
 							"minor" : 3,
 							"revision" : 4,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -1297,13 +1297,15 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "FMBells.gendsp",
-				"bootpath" : "~/Documents/Max 7/Packages/OWL/patchers/FMBells/code",
+				"bootpath" : "~/Dropbox/OWLwork/OwlGenPatches/FMBells/code",
+				"patcherrelativepath" : "../code",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "owl-faceplate-nourl-original (2).png",
-				"bootpath" : "~/Documents/Max 7/Packages/OWL/patchers/cvchucker/media",
+				"bootpath" : "~/Downloads",
+				"patcherrelativepath" : "../../../../../Downloads",
 				"type" : "PNG ",
 				"implicit" : 1
 			}

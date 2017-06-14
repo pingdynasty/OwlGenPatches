@@ -352,9 +352,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 586.0, 643.0, 125.0, 22.0 ],
+					"patching_rect" : [ 586.0, 643.0, 112.0, 22.0 ],
 					"style" : "",
-					"text" : "send #0OWLControls"
+					"text" : "send OWLControls"
 				}
 
 			}
@@ -628,9 +628,9 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 224.0, 338.0, 138.0, 22.0 ],
+					"patching_rect" : [ 224.0, 338.0, 125.0, 22.0 ],
 					"style" : "",
-					"text" : "receive #0OWLControls"
+					"text" : "receive OWLControls"
 				}
 
 			}

@@ -5,11 +5,11 @@
 			"major" : 7,
 			"minor" : 3,
 			"revision" : 4,
-			"architecture" : "x64",
+			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 57.0, 359.0, 491.0, 464.0 ],
+		"rect" : [ 98.0, 205.0, 491.0, 464.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -215,21 +215,21 @@
 								"filekind" : "audiofile",
 								"loop" : 1,
 								"content_state" : 								{
-									"play" : [ 0 ],
-									"originallengthms" : [ 0.0 ],
-									"originallength" : [ 0.0, "ticks" ],
-									"timestretch" : [ 0 ],
-									"speed" : [ 1.0 ],
-									"originaltempo" : [ 120.0 ],
-									"quality" : [ "basic" ],
-									"mode" : [ "basic" ],
-									"formantcorrection" : [ 0 ],
-									"formant" : [ 1.0 ],
 									"slurtime" : [ 0.0 ],
 									"followglobaltempo" : [ 0 ],
+									"mode" : [ "basic" ],
+									"originaltempo" : [ 120.0 ],
+									"originallengthms" : [ 0.0 ],
+									"play" : [ 0 ],
 									"basictuning" : [ 440 ],
+									"speed" : [ 1.0 ],
+									"formantcorrection" : [ 0 ],
+									"originallength" : [ 0.0, "ticks" ],
 									"pitchshift" : [ 1.0 ],
-									"pitchcorrection" : [ 0 ]
+									"formant" : [ 1.0 ],
+									"timestretch" : [ 0 ],
+									"pitchcorrection" : [ 0 ],
+									"quality" : [ "basic" ]
 								}
 
 							}
@@ -254,9 +254,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 508.5, 409.5, 105.0, 22.0 ],
+					"patching_rect" : [ 508.5, 409.5, 112.0, 22.0 ],
 					"style" : "",
-					"text" : "send OwlControls"
+					"text" : "send OWLControls"
 				}
 
 			}
@@ -273,7 +273,7 @@
 							"major" : 7,
 							"minor" : 3,
 							"revision" : 4,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -934,9 +934,9 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 145.0, 223.5, 118.0, 22.0 ],
+					"patching_rect" : [ 145.0, 223.5, 125.0, 22.0 ],
 					"style" : "",
-					"text" : "receive OwlControls"
+					"text" : "receive OWLControls"
 				}
 
 			}
@@ -1309,13 +1309,15 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "TapeDelay.gendsp",
-				"bootpath" : "~/Documents/Max 7/Packages/OWL/patchers/TapeDelay/code",
+				"bootpath" : "~/Dropbox/OWLwork/OwlGenPatches/TapeDelay/code",
+				"patcherrelativepath" : "../code",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "owl-faceplate-nourl-original (2).png",
-				"bootpath" : "~/Documents/Max 7/Packages/OWL/patchers/cvchucker/media",
+				"bootpath" : "~/Downloads",
+				"patcherrelativepath" : "../../../../../Downloads",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
