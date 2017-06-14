@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 258.0, 79.0, 819.0, 568.0 ],
+		"rect" : [ 258.0, 79.0, 556.0, 568.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -157,6 +157,11 @@
 					"patching_rect" : [ 224.0, 412.0, 137.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 15.0, 373.0, 137.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"exportfolder" : "Macintosh HD:/Users/adamparkinson/Dropbox/OWLwork/exports_fri26/",
+						"exportnotifier" : "OWLwatcher"
+					}
+,
 					"style" : "",
 					"text" : "gen~ @gen cvchucker2"
 				}
@@ -332,7 +337,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 362.0, 412.0, 120.0, 33.0 ],
+					"patching_rect" : [ 369.0, 403.5, 120.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 15.0, 338.0, 150.0, 33.0 ],
@@ -347,9 +352,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 586.0, 643.0, 105.0, 22.0 ],
+					"patching_rect" : [ 586.0, 643.0, 125.0, 22.0 ],
 					"style" : "",
-					"text" : "send OwlControls"
+					"text" : "send #0OWLControls"
 				}
 
 			}
@@ -623,9 +628,9 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 224.0, 338.0, 118.0, 22.0 ],
+					"patching_rect" : [ 224.0, 338.0, 138.0, 22.0 ],
 					"style" : "",
-					"text" : "receive OwlControls"
+					"text" : "receive #0OWLControls"
 				}
 
 			}
@@ -1278,9 +1283,9 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 215.0, 403.5, 146.0, 39.0 ],
+					"patching_rect" : [ 215.0, 403.5, 152.0, 41.5 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 10.0, 334.25, 162.0, 123.75 ],
+					"presentation_rect" : [ 10.0, 334.25, 162.0, 125.25 ],
 					"proportion" : 0.39,
 					"style" : ""
 				}
@@ -1313,7 +1318,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 23.5, 213.25, 538.5, 557.5 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 177.5, 334.25, 281.0, 123.75 ],
+					"presentation_rect" : [ 177.5, 334.25, 281.0, 125.25 ],
 					"proportion" : 0.39,
 					"style" : ""
 				}
@@ -1367,7 +1372,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1.5, -13.0, 1144.5, 818.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.0, 6.0, 465.0, 465.5 ],
+					"presentation_rect" : [ 5.0, 6.0, 465.0, 463.5 ],
 					"proportion" : 0.39,
 					"style" : ""
 				}
