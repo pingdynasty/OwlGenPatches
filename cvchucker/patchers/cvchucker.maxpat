@@ -5,11 +5,11 @@
 			"major" : 7,
 			"minor" : 3,
 			"revision" : 4,
-			"architecture" : "x86",
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 598.0, 78.0, 1048.0, 651.0 ],
+		"rect" : [ 56.0, 359.0, 476.0, 476.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -128,49 +128,6 @@
 					"patching_rect" : [ 49.5, 559.0, 130.0, 22.0 ],
 					"style" : "",
 					"text" : "gen~ @gen cvchucker"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-12",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1011.0, 675.25, 106.0, 22.0 ],
-					"style" : "",
-					"text" : "load OWLwatcher"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-13",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1011.0, 706.75, 53.0, 22.0 ],
-					"style" : "",
-					"text" : "pcontrol"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-11",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 1011.0, 640.75, 60.0, 22.0 ],
-					"style" : "",
-					"text" : "loadbang"
 				}
 
 			}
@@ -408,7 +365,7 @@
 							"major" : 7,
 							"minor" : 3,
 							"revision" : 4,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -1083,21 +1040,21 @@
 								"filekind" : "audiofile",
 								"loop" : 1,
 								"content_state" : 								{
-									"slurtime" : [ 0.0 ],
-									"originallengthms" : [ 0.0 ],
-									"formantcorrection" : [ 0 ],
-									"pitchshift" : [ 1.0 ],
-									"timestretch" : [ 0 ],
-									"followglobaltempo" : [ 0 ],
 									"play" : [ 0 ],
+									"originallengthms" : [ 0.0 ],
 									"originallength" : [ 0.0, "ticks" ],
+									"timestretch" : [ 0 ],
 									"speed" : [ 1.0 ],
-									"formant" : [ 1.0 ],
-									"mode" : [ "basic" ],
-									"pitchcorrection" : [ 0 ],
 									"originaltempo" : [ 120.0 ],
 									"quality" : [ "basic" ],
-									"basictuning" : [ 440 ]
+									"mode" : [ "basic" ],
+									"formantcorrection" : [ 0 ],
+									"formant" : [ 1.0 ],
+									"slurtime" : [ 0.0 ],
+									"followglobaltempo" : [ 0 ],
+									"basictuning" : [ 440 ],
+									"pitchshift" : [ 1.0 ],
+									"pitchcorrection" : [ 0 ]
 								}
 
 							}
@@ -1432,20 +1389,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-12", 0 ],
-					"source" : [ "obj-11", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-13", 0 ],
-					"source" : [ "obj-12", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-78", 0 ],
 					"source" : [ "obj-14", 0 ]
 				}
@@ -1711,22 +1654,19 @@
 			}
 , 			{
 				"name" : "owl-faceplate-nourl-original (2).png",
-				"bootpath" : "~/Music/RebelTechnology/OwlGenPatches/cvchucker/media",
-				"patcherrelativepath" : "../media",
+				"bootpath" : "~/Documents/Max 7/Packages/OWL/patchers/cvchucker/media",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cvchucker2.gendsp",
-				"bootpath" : "~/Music/RebelTechnology/OwlGenPatches/cvchucker/code",
-				"patcherrelativepath" : "../code",
+				"bootpath" : "~/Documents/Max 7/Packages/OWL/patchers/cvchucker/code",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cvchucker.gendsp",
-				"bootpath" : "~/Music/RebelTechnology/OwlGenPatches/cvchucker/code",
-				"patcherrelativepath" : "../code",
+				"bootpath" : "~/Documents/Max 7/Packages/OWL/patchers/cvchucker/code",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
