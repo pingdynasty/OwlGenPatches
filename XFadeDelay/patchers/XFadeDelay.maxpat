@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 106.0, 150.0, 490.0, 451.0 ],
+		"rect" : [ 598.0, 78.0, 1048.0, 651.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -63,6 +63,49 @@
 					"presentation_rect" : [ 390.5, 313.0, 80.0, 33.0 ],
 					"style" : "",
 					"text" : "Turn audio on"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-20",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 833.5, 607.0, 106.0, 22.0 ],
+					"style" : "",
+					"text" : "loadunique OWLwatcher"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-22",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 833.5, 638.5, 53.0, 22.0 ],
+					"style" : "",
+					"text" : "pcontrol"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-23",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 833.5, 572.5, 60.0, 22.0 ],
+					"style" : "",
+					"text" : "loadbang"
 				}
 
 			}
@@ -365,9 +408,9 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 105.0, 292.0, 125.0, 22.0 ],
+					"patching_rect" : [ 105.0, 292.0, 118.0, 22.0 ],
 					"style" : "",
-					"text" : "receive OWLControls"
+					"text" : "receive OwlControls"
 				}
 
 			}
@@ -377,9 +420,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 400.0, 453.0, 112.0, 22.0 ],
+					"patching_rect" : [ 400.0, 453.0, 105.0, 22.0 ],
 					"style" : "",
-					"text" : "send OWLControls"
+					"text" : "send OwlControls"
 				}
 
 			}
@@ -858,20 +901,20 @@
 								"loop" : 1,
 								"content_state" : 								{
 									"slurtime" : [ 0.0 ],
-									"followglobaltempo" : [ 0 ],
-									"mode" : [ "basic" ],
-									"originaltempo" : [ 120.0 ],
 									"originallengthms" : [ 0.0 ],
-									"play" : [ 0 ],
-									"basictuning" : [ 440 ],
-									"speed" : [ 1.0 ],
 									"formantcorrection" : [ 0 ],
-									"originallength" : [ 0.0, "ticks" ],
 									"pitchshift" : [ 1.0 ],
-									"formant" : [ 1.0 ],
 									"timestretch" : [ 0 ],
+									"followglobaltempo" : [ 0 ],
+									"play" : [ 0 ],
+									"originallength" : [ 0.0, "ticks" ],
+									"speed" : [ 1.0 ],
+									"formant" : [ 1.0 ],
+									"mode" : [ "basic" ],
 									"pitchcorrection" : [ 0 ],
-									"quality" : [ "basic" ]
+									"originaltempo" : [ 120.0 ],
+									"quality" : [ "basic" ],
+									"basictuning" : [ 440 ]
 								}
 
 							}
@@ -1229,8 +1272,22 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-22", 0 ],
+					"source" : [ "obj-20", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
 					"source" : [ "obj-21", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-20", 0 ],
+					"source" : [ "obj-23", 0 ]
 				}
 
 			}
@@ -1416,7 +1473,7 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "xfadedelay.gendsp",
-				"bootpath" : "~/Dropbox/OWLwork/OwlGenPatches/XFadeDelay/code",
+				"bootpath" : "~/Music/RebelTechnology/OwlGenPatches/XFadeDelay/code",
 				"patcherrelativepath" : "../code",
 				"type" : "gDSP",
 				"implicit" : 1
@@ -1429,8 +1486,8 @@
 			}
 , 			{
 				"name" : "owl-faceplate-nourl-original (2).png",
-				"bootpath" : "~/Downloads",
-				"patcherrelativepath" : "../../../../../Downloads",
+				"bootpath" : "~/Music/RebelTechnology/backup/OwlGenPatches/SimpleFM/media",
+				"patcherrelativepath" : "../../../backup/OwlGenPatches/SimpleFM/media",
 				"type" : "PNG ",
 				"implicit" : 1
 			}

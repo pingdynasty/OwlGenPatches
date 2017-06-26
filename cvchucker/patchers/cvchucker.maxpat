@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 258.0, 79.0, 556.0, 568.0 ],
+		"rect" : [ 598.0, 78.0, 1048.0, 651.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -109,13 +109,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-70",
-					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 49.5, 524.0, 142.5, 33.0 ],
+					"patching_rect" : [ 49.5, 529.0, 124.0, 20.0 ],
 					"style" : "",
-					"text" : "alternative version without xfades"
+					"text" : "alternative version?"
 				}
 
 			}
@@ -127,8 +126,55 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 49.5, 559.0, 130.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"exportnotifier" : "OWLwatcher"
+					}
+,
 					"style" : "",
 					"text" : "gen~ @gen cvchucker"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-12",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1011.0, 675.25, 106.0, 22.0 ],
+					"style" : "",
+					"text" : "loadunique OWLwatcher"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-13",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1011.0, 706.75, 53.0, 22.0 ],
+					"style" : "",
+					"text" : "pcontrol"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-11",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 1011.0, 640.75, 60.0, 22.0 ],
+					"style" : "",
+					"text" : "loadbang"
 				}
 
 			}
@@ -158,7 +204,6 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 15.0, 373.0, 137.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"exportfolder" : "Macintosh HD:/Users/adamparkinson/Dropbox/OWLwork/exports_fri26/",
 						"exportnotifier" : "OWLwatcher"
 					}
 ,
@@ -337,7 +382,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 369.0, 403.5, 120.0, 33.0 ],
+					"patching_rect" : [ 362.0, 412.0, 120.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 15.0, 338.0, 150.0, 33.0 ],
@@ -352,9 +397,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 586.0, 643.0, 112.0, 22.0 ],
+					"patching_rect" : [ 586.0, 643.0, 105.0, 22.0 ],
 					"style" : "",
-					"text" : "send OWLControls"
+					"text" : "send OwlControls"
 				}
 
 			}
@@ -628,9 +673,9 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 224.0, 338.0, 125.0, 22.0 ],
+					"patching_rect" : [ 224.0, 338.0, 118.0, 22.0 ],
 					"style" : "",
-					"text" : "receive OWLControls"
+					"text" : "receive OwlControls"
 				}
 
 			}
@@ -1047,20 +1092,20 @@
 								"loop" : 1,
 								"content_state" : 								{
 									"slurtime" : [ 0.0 ],
-									"followglobaltempo" : [ 0 ],
-									"mode" : [ "basic" ],
-									"originaltempo" : [ 120.0 ],
 									"originallengthms" : [ 0.0 ],
-									"play" : [ 0 ],
-									"basictuning" : [ 440 ],
-									"speed" : [ 1.0 ],
 									"formantcorrection" : [ 0 ],
-									"originallength" : [ 0.0, "ticks" ],
 									"pitchshift" : [ 1.0 ],
-									"formant" : [ 1.0 ],
 									"timestretch" : [ 0 ],
+									"followglobaltempo" : [ 0 ],
+									"play" : [ 0 ],
+									"originallength" : [ 0.0, "ticks" ],
+									"speed" : [ 1.0 ],
+									"formant" : [ 1.0 ],
+									"mode" : [ "basic" ],
 									"pitchcorrection" : [ 0 ],
-									"quality" : [ "basic" ]
+									"originaltempo" : [ 120.0 ],
+									"quality" : [ "basic" ],
+									"basictuning" : [ 440 ]
 								}
 
 							}
@@ -1283,9 +1328,9 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 215.0, 403.5, 152.0, 41.5 ],
+					"patching_rect" : [ 215.0, 403.5, 146.0, 39.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 10.0, 334.25, 162.0, 125.25 ],
+					"presentation_rect" : [ 10.0, 334.25, 162.0, 123.75 ],
 					"proportion" : 0.39,
 					"style" : ""
 				}
@@ -1318,7 +1363,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 23.5, 213.25, 538.5, 557.5 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 177.5, 334.25, 281.0, 125.25 ],
+					"presentation_rect" : [ 177.5, 334.25, 281.0, 123.75 ],
 					"proportion" : 0.39,
 					"style" : ""
 				}
@@ -1372,7 +1417,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1.5, -13.0, 1144.5, 818.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.0, 6.0, 465.0, 463.5 ],
+					"presentation_rect" : [ 5.0, 6.0, 465.0, 465.5 ],
 					"proportion" : 0.39,
 					"style" : ""
 				}
@@ -1390,6 +1435,20 @@
 				"patchline" : 				{
 					"destination" : [ "obj-64", 0 ],
 					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-12", 0 ],
+					"source" : [ "obj-11", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-13", 0 ],
+					"source" : [ "obj-12", 0 ]
 				}
 
 			}
@@ -1660,21 +1719,21 @@
 			}
 , 			{
 				"name" : "owl-faceplate-nourl-original (2).png",
-				"bootpath" : "~/Downloads",
-				"patcherrelativepath" : "../../../../../Downloads",
+				"bootpath" : "~/Music/RebelTechnology/OwlGenPatches/cvchucker/media",
+				"patcherrelativepath" : "../media",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cvchucker2.gendsp",
-				"bootpath" : "~/Dropbox/OWLwork/OwlGenPatches/CvChucker/code",
+				"bootpath" : "~/Music/RebelTechnology/OwlGenPatches/cvchucker/code",
 				"patcherrelativepath" : "../code",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cvchucker.gendsp",
-				"bootpath" : "~/Dropbox/OWLwork/OwlGenPatches/CvChucker/code",
+				"bootpath" : "~/Music/RebelTechnology/OwlGenPatches/cvchucker/code",
 				"patcherrelativepath" : "../code",
 				"type" : "gDSP",
 				"implicit" : 1

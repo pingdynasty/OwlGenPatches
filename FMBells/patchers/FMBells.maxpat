@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 148.0, 96.0, 483.0, 455.0 ],
+		"rect" : [ 525.0, 78.0, 1121.0, 890.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -56,9 +56,9 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 132.0, 251.5, 125.0, 22.0 ],
+					"patching_rect" : [ 132.0, 251.5, 118.0, 22.0 ],
 					"style" : "",
-					"text" : "receive OWLControls"
+					"text" : "receive OwlControls"
 				}
 
 			}
@@ -149,9 +149,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 497.0, 429.5, 112.0, 22.0 ],
+					"patching_rect" : [ 497.0, 429.5, 105.0, 22.0 ],
 					"style" : "",
-					"text" : "send OWLControls"
+					"text" : "send OwlControls"
 				}
 
 			}
@@ -631,6 +631,49 @@
 					"style" : "",
 					"text" : "By Cherif Hashizume and Adam Parkinson",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-12",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 932.5, 552.0, 106.0, 22.0 ],
+					"style" : "",
+					"text" : "loadunique OWLwatcher"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-13",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 932.5, 583.5, 53.0, 22.0 ],
+					"style" : "",
+					"text" : "pcontrol"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-16",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 932.5, 517.5, 60.0, 22.0 ],
+					"style" : "",
+					"text" : "loadbang"
 				}
 
 			}
@@ -1123,6 +1166,20 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-13", 0 ],
+					"source" : [ "obj-12", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-12", 0 ],
+					"source" : [ "obj-16", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-47", 0 ],
 					"source" : [ "obj-17", 0 ]
 				}
@@ -1297,15 +1354,15 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "FMBells.gendsp",
-				"bootpath" : "~/Dropbox/OWLwork/OwlGenPatches/FMBells/code",
+				"bootpath" : "~/Music/RebelTechnology/OwlGenPatches/FMBells/code",
 				"patcherrelativepath" : "../code",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "owl-faceplate-nourl-original (2).png",
-				"bootpath" : "~/Downloads",
-				"patcherrelativepath" : "../../../../../Downloads",
+				"bootpath" : "~/Music/RebelTechnology/backup/OwlGenPatches/SimpleFM/media",
+				"patcherrelativepath" : "../../../backup/OwlGenPatches/SimpleFM/media",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
